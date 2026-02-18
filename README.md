@@ -1,8 +1,8 @@
 # New Tailwind5 Pro
 
-[![npm version](https://img.shields.io/npm/v/tailwind5-pro.svg)](https://www.npmjs.com/package/tailwind5-pro)
-[![npm downloads](https://img.shields.io/npm/dm/tailwind5-pro.svg)](https://www.npmjs.com/package/tailwind5-pro)
-[![License](https://img.shields.io/npm/l/tailwind5-pro.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/new-tailwind5-pro.svg)](https://www.npmjs.com/package/tailwind5-pro)
+[![npm downloads](https://img.shields.io/npm/dm/new-tailwind5-pro.svg)](https://www.npmjs.com/package/tailwind5-pro)
+[![License](https://img.shields.io/npm/l/new-tailwind5-pro.svg)](LICENSE)
 
 Next-generation Tailwind CSS engine for Turbopack and SWC.
 
