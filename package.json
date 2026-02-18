@@ -1,0 +1,66 @@
+{
+  "name": "new-tailwind5-pro",
+  "version": "1.0.0",
+  "description": "Next-generation Tailwind CSS engine with variant grouping, modern CSS, icons, shortcuts, and SWC/Turbopack support",
+  "author": "Radosław Adamczyk - AdamczykTOP",
+  "license": "MIT",
+
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+
+  "files": [
+    "dist"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadWEB2000/new-tailwind5-pro.git"
+  },
+
+  "homepage": "https://github.com/RadWEB2000/new-tailwind5-pro",
+
+  "bugs": {
+    "url": "https://github.com/RadWEB2000/new-tailwind5-pro/issues"
+  },
+
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss5",
+    "tailwindcss4",
+    "tailwind",
+    "unocss",
+    "icons",
+    "swc",
+    "turbopack",
+    "nextjs",
+    "variant-grouping",
+    "modern-css",
+    "iconify"
+  ],
+
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+
+  "peerDependencies": {
+    "next": ">=15.0.0"
+  },
+
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  },
+
+  "engines": {
+    "node": ">=18"
+  }
+}
